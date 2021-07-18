@@ -1,0 +1,167 @@
+#main-container {
+    padding: 40px;
+}
+
+h1 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 79px;
+    display: flex;
+    align-items: flex-end;
+    color: #373A3C;
+}
+
+#section1 {
+    display: flex;
+}
+
+#fibonacci-label {
+    width: 230px;
+    height: 24px;
+    margin-top: 8px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: flex-end;
+    color: #373A3C;
+}
+
+#input-fibonacci {
+    text-align: center;
+    width: 86px;
+    height: 38px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    color: #373A3C;    
+}
+
+#submit {
+    margin-left: 10px;
+    width: 39px;
+    height: 38px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #0275D8;
+    border: 1px solid #0275D8;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+#result-fibonacci {
+    margin-left: 10px;
+    padding-bottom: 8px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: flex-end;
+    text-decoration-line: underline;
+    color: #373A3C;
+}
+
+#error-container {
+    display: none;
+    width: 260px;
+    height: 22px;
+    background: #F2DEDE;
+    border: 1px solid #EBCCCC;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-left: 55px;
+}
+
+#txt-error, #error-msg {
+    text-align: center;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;  
+    color: #A94442;
+}
+
+#error-msg {
+    margin-top: 10px;
+}
+
+.loader {
+    width: 30px;
+    height: 30px;
+    border: 2px solid #e5e5e5;
+    border-radius: 50%;
+    border-top: 2px solid black;
+    animation: loader 1s linear infinite; 
+}
+
+#title-result {
+    width: 182px;
+    height: 72px;
+    margin-top: 50px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 54px;
+    line-height: 72px;
+    display: flex;
+    align-items: flex-end;
+    color: #373A3C;
+}
+
+.results {
+    width: 1370px;
+    height: 24px;
+    margin-top: 30px;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: flex-end;
+    color: #373A3C;
+}
+
+#label-save {
+    width: 400px;
+    height: 24px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #373A3C;
+}
+
+#save-calculation {
+    margin-top: 10px;
+}
+
+@keyframes loader {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
